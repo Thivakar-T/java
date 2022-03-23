@@ -4,6 +4,7 @@ class Switch{
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter the day");
         String today=scan.nextLine();
+
         switch(today) {
             case "Sunday":{
                 System.out.println("This is Sunday");
